@@ -1,6 +1,6 @@
 /* Printable sentences with images */
 
-const PRINTABLES = [
+window.PRINTABLES = [
     {
         id: 'water',
         sentence: 'আমি জল খাবো',
