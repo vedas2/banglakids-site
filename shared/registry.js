@@ -113,6 +113,30 @@ const REGISTRY = [
         subtitle: 'Daily Words'
     },
     {
+        id: 'story-monkey-emoji',
+        title: 'কৌতূহলী বানর',
+        titleEn: 'Curious Monkey (Emoji)',
+        engine: 'story',
+        dataVar: 'STORY_MONKEY_EMOJI',
+        letter: '🐒',
+        badge: '9 Pages',
+        colorClass: 'story',
+        layout: 'half',
+        subtitle: 'Story: The Curious Monkey'
+    },
+    {
+        id: 'story-monkey-photo',
+        title: 'কৌতূহলী বানর',
+        titleEn: 'Curious Monkey (Photo)',
+        engine: 'story',
+        dataVar: 'STORY_MONKEY_PHOTO',
+        letter: '📖',
+        badge: '9 Pages',
+        colorClass: 'story2',
+        layout: 'half',
+        subtitle: 'Story: The Curious Monkey'
+    },
+    {
         id: 'daily-words-2',
         title: 'শব্দ মেলাও',
         titleEn: 'Match the Words',

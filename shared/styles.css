@@ -412,7 +412,11 @@ canvas {
 .game-card.words5     { border-bottom-color: #5c6bc0; }
 .game-card.words6     { border-bottom-color: #ef5350; }
 .game-card.daily      { border-bottom-color: #43a047; }
+.game-card.story      { border-bottom-color: #795548; }
+.game-card.story2     { border-bottom-color: #00acc1; }
 .game-card.match      { border-bottom-color: #7b1fa2; }
+.game-card.word-quiz     { border-bottom-color: #ef6c00; }
+.game-card.word-quiz-2   { border-bottom-color: #7b1fa2; }
 
 .card-letter {
     font-size: 3.8rem;
@@ -433,7 +437,11 @@ canvas {
 .words5     .card-letter { background: #e8eaf6; }
 .words6     .card-letter { background: #ffebee; }
 .daily      .card-letter { background: #f1f8e9; }
+.story      .card-letter { background: #efebe9; }
+.story2     .card-letter { background: #e0f7fa; }
 .match      .card-letter { background: #f3e5f5; }
+.word-quiz  .card-letter { background: #fff3e0; }
+.word-quiz-2 .card-letter { background: #f3e5f5; }
 
 .card-info { flex: 1; }
 .card-title { font-size: 1.55rem; font-weight: bold; color: #333; }
@@ -455,7 +463,11 @@ canvas {
 .words5     .card-badge { background: #e8eaf6; color: #5c6bc0; }
 .words6     .card-badge { background: #ffebee; color: #ef5350; }
 .daily      .card-badge { background: #f1f8e9; color: #43a047; }
+.story      .card-badge { background: #efebe9; color: #795548; }
+.story2     .card-badge { background: #e0f7fa; color: #00acc1; }
 .match      .card-badge { background: #f3e5f5; color: #7b1fa2; }
+.word-quiz  .card-badge { background: #fff3e0; color: #ef6c00; }
+.word-quiz-2 .card-badge { background: #f3e5f5; color: #7b1fa2; }
 
 .card-arrow { font-size: 1.4rem; color: #ddd; }
 .footer { text-align: center; margin-top: 44px; color: #bbb; font-size: 0.85rem; }

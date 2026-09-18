@@ -22,6 +22,8 @@ function navigate(hash) {
                 currentUnmount = mountLetterGame(app, data);
             } else if (game.engine === 'daily') {
                 currentUnmount = mountDailyWordsGame(app, data, game.subtitle);
+            } else if (game.engine === 'story') {
+                currentUnmount = mountStoryGame(app, data, game.subtitle);
             } else if (game.engine === 'match') {
                 currentUnmount = mountMatchGame(app, data, game.subtitle);
             } else if (game.engine === 'word-quiz') {
