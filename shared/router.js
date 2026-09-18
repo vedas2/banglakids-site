@@ -28,6 +28,8 @@ function navigate(hash) {
                 currentUnmount = mountMatchGame(app, data, game.subtitle);
             } else if (game.engine === 'word-quiz') {
                 currentUnmount = mountWordQuizGame(app, data, game.subtitle);
+            } else if (game.engine === 'printables') {
+                currentUnmount = mountPrintables(app, data);
             } else {
                 currentUnmount = mountWordGame(app, data, game.subtitle);
             }

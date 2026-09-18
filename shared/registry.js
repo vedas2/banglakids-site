@@ -172,6 +172,18 @@ const REGISTRY = [
         layout: 'full',
         subtitle: 'Body Parts'
     },
+    {
+        id: 'printables',
+        title: 'মুদ্রণযোগ্য',
+        titleEn: 'Printables',
+        engine: 'printables',
+        dataVar: 'PRINTABLES',
+        letter: '🖨️',
+        badge: '10 Cards',
+        colorClass: 'printables',
+        layout: 'full',
+        subtitle: 'Printable Cards'
+    },
 ];
 
 /* Shared confetti utility used by both game engines */
